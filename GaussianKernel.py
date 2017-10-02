@@ -1,4 +1,3 @@
-__author__ = 'satya'
 
 from scipy.spatial.distance import cdist
 import math
