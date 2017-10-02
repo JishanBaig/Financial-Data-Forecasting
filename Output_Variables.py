@@ -1,5 +1,3 @@
-__author__ = 'satya'
-
 def reScale(toBeRescaled,minimum,maximum):
 
     #minimum,maximum = min(toBeScaled),max(toBeScaled)
