@@ -1,5 +1,3 @@
-__author__ = 'satya'
-
 from ReadInput import getClosingPrices
 from Input_Variables import exponentialMovingAverage,inputRdp,trainingOutputRdp_5,scale,changeInPrice
 import xlwt as xw
@@ -15,7 +13,7 @@ my_sheet=myWorkbook.add_sheet('OUTPUT')
 
 
 
-path = '/home/satya/Documents/dataset/MS'
+path = '/home/Documents/dataset/MS'
 
 #p = os.path.join(path,'Microsoft.xlsx')
 
