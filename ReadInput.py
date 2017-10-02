@@ -1,11 +1,9 @@
-__author__ = 'satya'
-
 import xlrd as xl
 import unicodedata
 import os
 from collections import OrderedDict
 
-#path = '/home/satya/Documents/dataset/MS'
+#path = '/home/Documents/dataset/MS'
 
 #p = os.path.join(path,'Microsoft.xlsx')
 
