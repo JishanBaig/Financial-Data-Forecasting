@@ -5,7 +5,7 @@ from sklearn import svm,preprocessing
 from Output_Variables import calculateCorrectPredictions
 import numpy as np
 
-pathOfAdobe = '/home/satya/Documents/dataset/Adobe'
+pathOfAdobe = '/home/Documents/dataset/Adobe'
 
 datePriceDictionary = getClosingPrices(pathOfAdobe,'Training1.xlsx')
 initialPriceDictionary = getClosingPrices(pathOfAdobe,'First_20.xlsx')
