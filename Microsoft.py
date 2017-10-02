@@ -1,4 +1,3 @@
-__author__ = 'satya'
 
 from ReadInput import getClosingPrices
 from Input_Variables import exponentialMovingAverage,inputRdp,trainingOutputRdp_5,changeInPrice,scale
@@ -6,7 +5,7 @@ from sklearn import svm,preprocessing
 import numpy as np
 from Output_Variables import calculateCorrectPredictions
 
-pathOfMicrosoft = '/home/satya/Documents/dataset/MS'
+pathOfMicrosoft = '/home/Documents/dataset/MS'
 
 datePriceDictionary = getClosingPrices(pathOfMicrosoft,'MicrosoftTraining.xlsx')
 initialPriceDictionary = getClosingPrices(pathOfMicrosoft,'Training.xlsx')
