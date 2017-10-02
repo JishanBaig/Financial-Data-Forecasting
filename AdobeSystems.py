@@ -1,4 +1,3 @@
-__author__ = 'satya'
 
 from ReadInput import getClosingPrices
 from Input_Variables import exponentialMovingAverage,inputRdp,trainingOutputRdp_5,changeInPrice,scale
