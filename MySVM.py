@@ -1,5 +1,3 @@
-__author__ = 'satya'
-
 from sklearn.svm import SVR
 
 def mySVR(trainingData,targetData):
